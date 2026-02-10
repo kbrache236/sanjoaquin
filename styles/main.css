@@ -8,6 +8,31 @@ html {
     background-color: white;
 }
 
+head {
+    display: flex;
+    gap: 20px;
+    border-bottom: 3px solid #931420;
+    padding: 1.5em 0 2em 0;
+    background-image: linear-gradient(#f6bb73, white);
+}
+
+head img {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+head h2 {
+    font-size: 170%;
+    color: #800000;
+    padding-left: 30px;
+}
+
+head h3 {
+    font-size: 130%;
+    font-style: italic;
+    padding-left: 30px;
+}
+
 body {
     font-family: sans-serif;
     font-size: 100%;
@@ -17,22 +42,18 @@ body {
     background-color: #fffded;
 }
 
-header {
-    display: flex;
-    gap: 20px;
-    border-bottom: 3px solid #931420;
-    padding: 1.5em 0 2em 0;
-    background-image: linear-gradient(#f6bb73, white);
-}
-
-header img {
-    padding-left: 1em;
-    padding-right: 1em;
-}
-
 main {
     padding-left: 1em;
     padding-right: 1em;
+    display: flex;
+}
+
+main section {
+    width: 75%;
+}
+
+main aside {
+    width: 25%;
 }
 
 main img {
@@ -72,18 +93,6 @@ main h2 {
 main h3 {
     font-size: 105%;
     padding-bottom: .25em;
-}
-
-header h2 {
-    font-size: 170%;
-    color: #800000;
-    padding-left: 30px;
-}
-
-header h3 {
-    font-size: 130%;
-    font-style: italic;
-    padding-left: 30px;
 }
 
 a:hover {
