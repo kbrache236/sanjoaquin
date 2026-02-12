@@ -8,7 +8,7 @@ html {
     background-color: white;
 }
 
-head {
+header {
     display: flex;
     gap: 20px;
     border-bottom: 3px solid #931420;
@@ -16,18 +16,18 @@ head {
     background-image: linear-gradient(#f6bb73, white);
 }
 
-head img {
+header img {
     padding-left: 1em;
     padding-right: 1em;
 }
 
-head h2 {
+header h2 {
     font-size: 170%;
     color: #800000;
     padding-left: 30px;
 }
 
-head h3 {
+header h3 {
     font-size: 130%;
     font-style: italic;
     padding-left: 30px;
@@ -139,5 +139,5 @@ footer p {
 }
 
 #shadow {
-    text-shadow:#800000;
+    text-shadow: 2px 1px 5px #800000;
 }
