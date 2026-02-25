@@ -4,6 +4,19 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
+	<!-- JQuery CDN -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+	
+	<!-- Slicknav JS file -->
+	 <script src="js/jquery.slicknav.min.js"></script>
+
+	 <script type="text/javascript">
+		$(document).ready(function()
+		{
+			$('#nav_menu').slicknav({prependTo:"#mobilemenu"});
+		});
+	</script>
+
 	<link rel="stylesheet" href="styles/main.css">
 	
 	<title>San Joaquin Valley Town Hall</title>
@@ -17,6 +30,7 @@
 			<h3>Celebrating our <span id="shadow">75th</span> Year</h3>
 		</div>	
 	</header>
+	<nav id="mobilemenu"></nav>
 	<nav id="nav_menu">
 		<ul>
 			<li><a href="index.html">Home</a></li>
